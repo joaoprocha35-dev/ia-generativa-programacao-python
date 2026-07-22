@@ -1,0 +1,39 @@
+
+
+
+
+considere esse código que você me ajudou a criar: 
+
+import pandas as pd
+
+# Importa a função para separar os dados em treino e teste.
+
+from sklearn.model_selection import train_test_split
+
+
+# Importa o algoritmo de Regressão Linear.
+
+from sklearn.linear_model import LinearRegression
+
+# Importa o Pipeline para unir pré-processamento e treinamento.
+
+from sklearn.pipeline import Pipeline
+
+# Importa o OneHotEncoder para transformar textos em números.
+
+from sklearn.preprocessing import OneHotEncoder
+
+# Importa o ColumnTransformer para aplicar transformações apenas em determinadas colunas.
+
+from sklearn.compose import ColumnTransformer
+
+
+# Importa as métricas para avaliar o modelo.
+
+from sklearn.metrics import r2_score, root_mean_squared_error
+
+# Importa a biblioteca joblib para salvar o modelo treinado.
+
+import joblib
+
+produza o comando pip install para eu fazer a instalação de uma só vez para eu usar no meu terminal de comandos
